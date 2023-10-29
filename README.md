@@ -14,11 +14,11 @@ The app provides the following features:
 # Project Structure
 The project is organized following Clean Architecture principles, which consist of the following layers:
 
-`common`: Contains utility classes and functions.
-`data`: Manages data retrieval from the TMDb API using Coroutines and Retrofit. It also contains the data models.
-`di`: Handles dependency injection using Hilt.
-`domain`: Contains use cases and business logic.
-`presentation`: Defines the user interface using ViewModels and Activities.
+1. `common`: Contains utility classes and functions.
+2. `data`: Manages data retrieval from the TMDb API using Coroutines and Retrofit. It also contains the data models.
+3. `di`: Handles dependency injection using Hilt.
+4. `domain`: Contains use cases and business logic.
+5. `presentation`: Defines the user interface using ViewModels and Activities.
 
 # Dependencies
 The app relies on the following important dependencies:
