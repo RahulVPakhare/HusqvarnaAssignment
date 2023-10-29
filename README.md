@@ -23,10 +23,10 @@ The project is organized following Clean Architecture principles, which consist 
 # Dependencies
 The app relies on the following important dependencies:
 
-Retrofit: For making network requests to TMDb API.
-Hilt: For dependency injection.
-Coroutines: For asynchronous programming.
-Glide: For loading and caching images.
+1. Retrofit: For making network requests to TMDb API.
+2. Hilt: For dependency injection.
+3. Coroutines: For asynchronous programming.
+4. Glide: For loading and caching images.
 
 # Acknowledgments
 The Movie Database (TMDb) for providing the API to access movie information.
